@@ -1,4 +1,4 @@
-a = int(input("Enter no.of teams"))
+a = int(input("Enter no.of teams:"))
 teams = []
 for i in range(a):
     x = input("Enter team:")
