@@ -9,5 +9,5 @@ for i in range(a-1):
         matches.append([teams[i], teams[j]])
     pos = 1
     for i in matches:
-        print("Matches{} : {}".format(pos, i[0], i[1]))
+        print("Match{} : {} vs {}".format(pos, i[0], i[1]))
         pos = pos + 1
