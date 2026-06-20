@@ -1,0 +1,7 @@
+name = ["GILL","SARA","DHONI","SAKSHI","RAJU"]
+marks = [70,30,79,36,99]
+pos = 1
+for i in range (5):
+    if marks [i] > 40:
+        print("{}.{} has scored {}".format (pos,name[i],marks[i]))
+        pos = pos+1
